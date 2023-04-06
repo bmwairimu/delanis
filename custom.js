@@ -1,4 +1,20 @@
 $(document).ready(function(){
+
+  $('button#submit').click(function(){
+    let userName=$('input#fname').val()
+    
+    
+    if(userName===""){
+        alert("please fill the required fields")
+    }
+    else {
+        alert(`${userName}, we have received your message.Thank you for reaching out`)
+
+    } 
+   
+});
+
+
     $("#image1").hover(function(){
       $(".firstText").toggle();
       $("#image1").css("filter", "brightness(40%)");    
@@ -77,19 +93,7 @@ $(document).ready(function(){
     // form
    
   
-    $('button#submit').click(function(){
-      let userName=$('input#fname').val()
-      
-      
-      if(userName===""){
-          alert("please fill the required fields")
-      }
-      else {
-          alert(`${userName}, we have received your message.Thank you for reaching out`)
-  
-      } 
-     
-  });
+
   
   $(document).ready(function(){
     $(":reset").css("background-color", "wheat", "font-size", "10px");
