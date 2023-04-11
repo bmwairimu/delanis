@@ -17,39 +17,39 @@ $(document).ready(function(){
 
     $("#image1").hover(function(){
       $(".firstText").toggle();
-      $("#image1").css("filter", "brightness(40%)");    
+      //$("#image1").css("filter", "brightness(40%)");    
   })
    $("#image2").hover(function(){
       $(".secondText").toggle();
-      $("#image2").css("filter", "brightness(40%)");    
+     // $("#image2").css("filter", "brightness(40%)");    
   })
     $("#image3").hover(function(){
       $(".thirdText").toggle();
-      $("#image3").css("filter", "brightness(40%)");    
+      //$("#image3").css("filter", "brightness(40%)");    
   })
     $("#image4").hover(function(){
       $(".fourthText").toggle();
-      $("#image4").css("filter", "brightness(60%)");    
+     // $("#image4").css("filter", "brightness(60%)");    
   })
     $("#image5").hover(function(){
      $(".fifthText").toggle();
-     $("#image5").css("filter", "brightness(60%)");    
+    // $("#image5").css("filter", "brightness(60%)");    
   })
     $("#image6").hover(function(){
       $(".sixthText").toggle();
-      $("#image6").css("filter", "brightness(60%)");    
+     // $("#image6").css("filter", "brightness(60%)");    
   })
     $("#image7").hover(function(){
       $(".seventhText").toggle();
-      $("#image7").css("filter", "brightness(60%)");    
+      //$("#image7").css("filter", "brightness(60%)");    
   })
     $("#image8").hover(function(){
       $(".eightText").toggle();
-      $("#image8").css("filter", "brightness(60%)");    
+      //$("#image8").css("filter", "brightness(60%)");    
   })
   });
   
-  // what we do
+
   $(document).ready(function(){
       $("#design").onclick(function(){
         $("#img-design").show();
@@ -90,12 +90,4 @@ $(document).ready(function(){
       });
     });
   
-    // form
-   
-  
-
-  
-  $(document).ready(function(){
-    $(":reset").css("background-color", "wheat", "font-size", "10px");
-  });
-  
+    
