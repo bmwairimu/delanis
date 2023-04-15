@@ -5,7 +5,7 @@ $(document).ready(function(){
     
     
     if(userName===""){
-        alert("please fill the required fields")
+        alert("you have not filled your username")
     }
     else {
         alert(`${userName}, we have received your message.Thank you for reaching out`)
@@ -16,36 +16,28 @@ $(document).ready(function(){
 
 
     $("#image1").hover(function(){
-      $(".firstText").toggle();
-      //$("#image1").css("filter", "brightness(40%)");    
+      $(".text1").toggle();        
   })
    $("#image2").hover(function(){
-      $(".secondText").toggle();
-     // $("#image2").css("filter", "brightness(40%)");    
+      $(".text2").toggle();       
   })
     $("#image3").hover(function(){
-      $(".thirdText").toggle();
-      //$("#image3").css("filter", "brightness(40%)");    
+      $(".text3").toggle();         
   })
     $("#image4").hover(function(){
-      $(".fourthText").toggle();
-     // $("#image4").css("filter", "brightness(60%)");    
+      $(".text4").toggle();        
   })
     $("#image5").hover(function(){
-     $(".fifthText").toggle();
-    // $("#image5").css("filter", "brightness(60%)");    
+     $(".text5").toggle();      
   })
     $("#image6").hover(function(){
-      $(".sixthText").toggle();
-     // $("#image6").css("filter", "brightness(60%)");    
+      $(".text6").toggle();     
   })
     $("#image7").hover(function(){
-      $(".seventhText").toggle();
-      //$("#image7").css("filter", "brightness(60%)");    
+      $(".text7").toggle();         
   })
     $("#image8").hover(function(){
-      $(".eightText").toggle();
-      //$("#image8").css("filter", "brightness(60%)");    
+      $(".text8").toggle();      
   })
   });
   
